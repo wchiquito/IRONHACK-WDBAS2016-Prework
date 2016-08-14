@@ -1,0 +1,188 @@
+.gmail {
+	color: rgb(0, 0, 0);
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	opacity: 0.75;
+	font-size: small;
+	margin-right: -2px;
+}
+
+.images {
+	color: rgb(0, 0, 0);
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	opacity: 0.75;
+	font-size: small;
+	padding-left: 13px;
+	margin-right: 11px;
+}
+
+a.gmail:hover, a.images:hover {
+	text-decoration: underline;
+}
+
+.applications {
+	opacity: 0.55;
+	vertical-align: middle;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	background-position: -132px -38px;
+	background-image: url('./images/i1_1967ca6a.png');
+}
+
+.applications:hover {
+	opacity: 0.85;
+	cursor: default;
+}
+
+.notifications_back {
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	margin-left: 10px;
+	margin-right: 12px;	
+}
+
+.notifications {
+	background-color: rgba(0, 0, 0, 0.55);
+	background-position: -194px -21px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	margin-left: 6px;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background-image: url('./images/i1_1967ca6a.png');
+}
+
+div.notifications:hover {
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+.user {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+}
+
+.user_back {
+	background-image: url('./images/photo.jpg');
+	border-radius: 50%;
+	display: block;
+	margin: -1px -2px -1px -1px;
+	height: 32px;
+	width: 32px;
+}
+
+.logo {
+	height: 92px;
+	width: 272px;
+	margin-top: 160px;
+	margin-left: 664px;
+	margin-bottom: 30px;
+}
+
+input[type="submit"] {
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	-webkit-border-radius: 2px;
+	-webkit-user-select: none;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 2px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+	height: 36px;
+	line-height: 27px;
+}
+
+input[type="submit"]:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+
+#search {
+	border: none;
+	padding: 12px;
+	width: 550px;
+	position: absolute;
+	left: 0px;
+	outline: none;
+	background: url("data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D") transparent;
+}
+
+.input-search {
+	position: relative;
+	height: 38px;
+	width: 584px;
+	border: 1px solid rgb(217, 217, 217);
+	margin-left: 14px;
+	margin-bottom: 21px;
+}
+
+.input-search:hover {
+	border: 1px solid #4d90fe;
+}
+
+.gsri_ok0 {
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat -3px 0;
+	background-size: 24px 24px;
+	display: inline-block;
+	height: 24px;
+	width: 17px;
+	margin-top: 7px;
+	margin-left: 544px;
+	border: none;
+}
+
+.gsri_ok0:hover {
+	cursor: pointer;
+}
+
+#fbar {
+	font-size: small;
+	font-family: arial,sans-serif;
+	background: none repeat scroll 0% 0% #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+	line-height: 40px;
+	min-width: 980px;
+}
+
+#fsr {
+	margin-left: 30px;
+	float: right;
+	white-space: nowrap;
+	margin-right: 30px;
+}
+
+#fsl {
+	margin-left: 3px;
+}
+
+._dQc {
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	right: 0px;	
+}
+
+._Gs {
+	padding-left: 27px;
+	margin: 0px !important;
+	color: #666;
+	text-decoration: none;
+}
+
+a._Gs:hover {
+	text-decoration: underline;
+}

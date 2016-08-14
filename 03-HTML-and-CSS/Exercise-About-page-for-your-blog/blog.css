@@ -1,0 +1,89 @@
+header {
+	font-family: Cambria, Georgia, serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	background-color: gray;
+	font-style: italic;
+}
+
+li {
+	font-weight: bold;
+}
+
+header:hover {
+	background-color: white;
+}
+
+img {
+	border-radius: 50%;
+}
+
+table {
+	width: 50%;
+	text-align: left;
+}
+
+a:link {
+	color: #000000;
+}
+
+a:visited {
+	color: #CCCCCC;
+}
+
+a:hover {
+	color: #999999;
+}
+
+p {
+	background-color: grey;
+	font-family: "Baskerville";
+}
+
+.articleContainer {
+	background-color: #FFFFFF;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.postAuthor {
+	font-size: 20px;
+}
+
+.centeredElement {
+	width: 50%;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+	background-color: #444444;
+	padding: 0px 0px;
+	border-top: 5px solid white;
+	color: white;
+	font-size: 10px;
+	font-style: italic;
+	width: 100%;
+}
+
+footer a:link {
+	color: #FFFFFF;
+}
+
+footer a:visited {
+	color: #CCCCCC;
+}
+
+footer a:hover {
+	color: #999999;
+}

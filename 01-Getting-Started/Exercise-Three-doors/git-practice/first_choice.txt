@@ -1,0 +1,10 @@
+diff --git a/01-Getting-Started/Exercise-Three-doors/git-practice/three_doors.txt b/01-Getting-Started/Exercise-Three-doors/git-practice/three_doors.txt
+index 794a7d6..1d3b8dd 100644
+--- a/01-Getting-Started/Exercise-Three-doors/git-practice/three_doors.txt
++++ b/01-Getting-Started/Exercise-Three-doors/git-practice/three_doors.txt
+@@ -1,3 +1,5 @@
+ You are in a room with three doors.
+ 
+ Which door will you go through?
++
++I chose to enter the third door.
